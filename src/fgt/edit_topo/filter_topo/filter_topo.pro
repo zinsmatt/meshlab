@@ -6,4 +6,4 @@ HEADERS       += filter_topo.h \
 SOURCES       += filter_topo.cpp  
 				
 				
-TARGET        = filter_topo
+TARGET        = filter_topoINCLUDEPATH += /usr/include/eigen3/ \

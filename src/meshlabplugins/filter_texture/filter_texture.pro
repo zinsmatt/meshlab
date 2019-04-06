@@ -13,3 +13,4 @@ win32-msvc2005:DEFINES	+= _USE_MATH_DEFINES
 win32-msvc2008:DEFINES	+= _USE_MATH_DEFINES
 #CONFIG +=  stl
 #QT += opengl svg
+INCLUDEPATH += /usr/include/eigen3/ \

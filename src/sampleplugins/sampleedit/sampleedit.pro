@@ -10,3 +10,4 @@ SOURCES       = edit_sample_factory.cpp \
 TARGET        = sampleedit
 
 RESOURCES     = sampleedit.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

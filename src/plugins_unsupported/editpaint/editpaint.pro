@@ -16,3 +16,4 @@ TARGET = editpaint
 QT += opengl
 
 RESOURCES = meshlab.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

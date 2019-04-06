@@ -13,3 +13,4 @@ SOURCES       += filter_hqrender.cpp \
 		utilities_hqrender.cpp
 
 TARGET        = filter_hqrender
+INCLUDEPATH += /usr/include/eigen3/ \

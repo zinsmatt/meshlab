@@ -39,3 +39,4 @@ TARGET        = filter_poisson
 CONFIG       += opengl
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

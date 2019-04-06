@@ -13,3 +13,4 @@ TARGET        = render_gdp
 
 FORMS		= shaderDialog.ui
 
+INCLUDEPATH += /usr/include/eigen3/ \

@@ -1,6 +1,9 @@
 #config += debug_and_release
+INCLUDEPATH += /usr/include/eigen3/ \
+
 TEMPLATE      = subdirs
 CONFIG += ordered
+
 SUBDIRS       = common \
                 meshlab \
                 meshlabserver \
@@ -76,4 +79,7 @@ SUBDIRS       = common \
 # Sample Plugins
                 sampleplugins/sampleedit \
                 sampleplugins/samplefilter \
-                sampleplugins/samplefilterdyn \     
+                sampleplugins/samplefilterdyn
+                
+INCLUDEPATH += /usr/include/eigen3/
+

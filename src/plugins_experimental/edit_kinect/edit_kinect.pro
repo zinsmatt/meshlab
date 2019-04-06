@@ -26,3 +26,4 @@ FORMS += kinect.ui
 
 # OCME src/ocme FILES
 # Lib headers
+INCLUDEPATH += /usr/include/eigen3/ \

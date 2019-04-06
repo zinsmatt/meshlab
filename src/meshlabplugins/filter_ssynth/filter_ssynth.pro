@@ -28,3 +28,4 @@ OTHER_FILES += x3d.rendertemplate \
     x3d3.rendertemplate \
     x3d4.rendertemplate
 RESOURCES += ssynthres.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

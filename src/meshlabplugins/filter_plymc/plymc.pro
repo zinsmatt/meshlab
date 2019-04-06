@@ -26,3 +26,4 @@ HEADERS = plymc.h \
 
 #macx-g++:DEFINES += NDEBUG
 
+INCLUDEPATH += /usr/include/eigen3/ \

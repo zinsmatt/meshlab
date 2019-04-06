@@ -7,3 +7,4 @@ SOURCES       += filter_watermark.cpp \
 				 utilsWatermark.cpp
 		
 TARGET        = filter_watermark
+INCLUDEPATH += /usr/include/eigen3/ \

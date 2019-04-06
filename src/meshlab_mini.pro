@@ -35,3 +35,4 @@ SUBDIRS       = common \
 #                meshlabplugins/io_collada \
 #                meshlabplugins/io_x3d \
 #                meshlabserver
+INCLUDEPATH += /usr/include/eigen3/ \

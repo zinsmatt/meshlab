@@ -18,3 +18,4 @@ SOURCES += 		jpgfile.c \
                 makernote.c
 
 win32:SOURCES += myglob.c
+INCLUDEPATH += /usr/include/eigen3/ \

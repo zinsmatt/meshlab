@@ -17,3 +17,4 @@ HEADERS = filter_output_optical_flow.h \
 RESOURCES += filter_output_optical_flow.qrc
 
 TARGET = filter_output_optical_flow
+INCLUDEPATH += /usr/include/eigen3/ \

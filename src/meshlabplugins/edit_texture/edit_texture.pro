@@ -19,3 +19,4 @@ RESOURCES     = meshlab.qrc
 FORMS         = textureeditor.ui
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

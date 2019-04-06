@@ -14,3 +14,4 @@ TARGET        = edit_referencing
 RESOURCES     = edit_referencing.qrc
 
 FORMS         = edit_referencingDialog.ui
+INCLUDEPATH += /usr/include/eigen3/ \

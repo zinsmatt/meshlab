@@ -12,3 +12,4 @@ SOURCES += io_renderman.cpp \
 
 
 TARGET = io_renderman
+INCLUDEPATH += /usr/include/eigen3/ \

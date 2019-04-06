@@ -15,3 +15,4 @@ SOURCES       += filter_photosynth.cpp \
 TARGET         = filter_photosynth
 
 QT += network
+INCLUDEPATH += /usr/include/eigen3/ \

@@ -11,3 +11,5 @@ CONFIG += plugin
 OTHER_FILES += ff_fractal_description.txt \
     ff_craters_description.txt
 RESOURCES += ff_res.qrc
+INCLUDEPATH += /usr/include/eigen3/ \
+INCLUDEPATH += /usr/include/eigen3/ \

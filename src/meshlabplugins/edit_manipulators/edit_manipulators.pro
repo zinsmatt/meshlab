@@ -11,3 +11,4 @@ SOURCES   = edit_manipulators_factory.cpp \
 TARGET    = edit_manipulators
 
 RESOURCES = edit_manipulators.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

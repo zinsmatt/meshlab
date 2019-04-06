@@ -17,3 +17,4 @@ SOURCES += decorate_shadow.cpp \
     ssao.cpp
 TARGET = decorate_shadow
 RESOURCES    += noise.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

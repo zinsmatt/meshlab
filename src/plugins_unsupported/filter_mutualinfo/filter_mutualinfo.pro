@@ -19,3 +19,4 @@ SOURCES       += filter_mutualinfo.cpp \
 			solver.cpp
 		
 TARGET        = filter_mutualinfo
+INCLUDEPATH += /usr/include/eigen3/ \

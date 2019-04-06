@@ -9,3 +9,4 @@ SOURCES       += filter_trioptimize.cpp
 		 
 
 TARGET        = filter_trioptimize
+INCLUDEPATH += /usr/include/eigen3/ \

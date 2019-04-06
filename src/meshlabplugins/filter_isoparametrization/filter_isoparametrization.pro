@@ -19,6 +19,7 @@ HEADERS       += ./diamond_sampler.h \
         ./defines.h \
         ./filter_isoparametrization.h\
         ./stat_remeshing.h
+INCLUDEPATH += /usr/include/eigen3/ \
 
 SOURCES       += ./filter_isoparametrization.cpp
 
@@ -60,3 +61,4 @@ macx:LIBS += $$MACLIBDIR/liblevmar.a
 #QMAKE_CXXFLAGS += -fpermissive
 
 CONFIG       += opengl
+INCLUDEPATH += /usr/include/eigen3/ \

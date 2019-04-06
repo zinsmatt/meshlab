@@ -21,3 +21,4 @@ SOURCES += muParser.cpp \
            muParserInt.cpp \
            muParserTest.cpp \
            muParserTokenReader.cpp
+INCLUDEPATH += /usr/include/eigen3/ \

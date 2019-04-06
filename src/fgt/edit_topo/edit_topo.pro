@@ -17,3 +17,4 @@ QT           	+= 	opengl
 
 RESOURCES     	= 	edit_topo.qrc
 
+INCLUDEPATH += /usr/include/eigen3/ \

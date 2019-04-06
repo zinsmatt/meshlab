@@ -54,3 +54,4 @@ TARGET        = photo_texturing
 QT           += opengl
 QT           += xml
 RESOURCES     = edit_phototexturing.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

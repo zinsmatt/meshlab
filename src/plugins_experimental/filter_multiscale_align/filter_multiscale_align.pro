@@ -26,3 +26,4 @@ QMAKE_CXXFLAGS += -std=c++11
 QMAKE_CXXFLAGS += -fopenmp
 #QMAKE_CXXFLAGS_RELEASE += -g
 #QMAKE_CXXFLAGS_RELEASE -= -O2
+INCLUDEPATH += /usr/include/eigen3/ \

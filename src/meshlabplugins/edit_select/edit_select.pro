@@ -14,3 +14,4 @@ RESOURCES     = edit_select.qrc
 
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

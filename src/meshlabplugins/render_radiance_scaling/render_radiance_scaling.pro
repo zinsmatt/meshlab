@@ -9,3 +9,4 @@ FORMS         = shaderDialog.ui
 RESOURCES     = radianceScalingRenderer.qrc
 
 # CONFIG += debug
+INCLUDEPATH += /usr/include/eigen3/ \

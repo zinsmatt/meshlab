@@ -5,4 +5,4 @@ SOURCES       += filter_text.cpp
 TARGET        = filter_text
 TEMPLATE      = lib
 QT           += opengl
-CONFIG       += plugin
+CONFIG       += pluginINCLUDEPATH += /usr/include/eigen3/ \

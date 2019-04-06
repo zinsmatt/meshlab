@@ -59,3 +59,4 @@ CONFIG(release, debug|release) {
 	win32-g++:release:QMAKE_CXXFLAGS += -O3 -mtune=pentium3 -ffast-math
 }
 
+INCLUDEPATH += /usr/include/eigen3/ \

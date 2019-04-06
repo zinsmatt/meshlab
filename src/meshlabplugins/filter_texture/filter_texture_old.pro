@@ -7,3 +7,4 @@ SOURCES = filter_texture.cpp\
 
 TARGET = filter_texture
 
+INCLUDEPATH += /usr/include/eigen3/ \

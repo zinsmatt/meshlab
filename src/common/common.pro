@@ -54,6 +54,7 @@ echo "linked shader dir"; \
 fi;\
 "
 INCLUDEPATH *= ../.. \
+    /usr/include/eigen3/ \
     $$VCGDIR \
     $$GLEWDIR/include
 TEMPLATE = lib
@@ -121,3 +122,4 @@ SOURCES += 	filterparameter.cpp \
 			meshlabdocumentxml.cpp \
 			meshlabdocumentbundler.cpp \
 			ml_shared_data_context.cpp 
+INCLUDEPATH += /usr/include/eigen3/ \

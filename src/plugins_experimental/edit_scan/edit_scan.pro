@@ -14,3 +14,4 @@ TARGET = edit_scan
 QT += opengl
 RESOURCES = meshlab.qrc
 FORMS += widget.ui
+INCLUDEPATH += /usr/include/eigen3/ \

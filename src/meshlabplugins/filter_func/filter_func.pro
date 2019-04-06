@@ -5,6 +5,7 @@ HEADERS       += filter_func.h
 SOURCES       += filter_func.cpp
 
 TARGET        = filter_func
+INCLUDEPATH += /usr/include/eigen3/ \
 
 INCLUDEPATH += ../../external/muparser_v225/include
 
@@ -23,3 +24,4 @@ linux-g++:LIBS       += ../../external/lib/linux-g++/libmuparser.a
 linux-g++-32:LIBS       += ../../external/lib/linux-g++-32/libmuparser.a
 linux-g++-64:LIBS       += ../../external/lib/linux-g++-64/libmuparser.a
 win32-g++:LIBS		 += ../../external/lib/win32-gcc/libmuparser.a
+INCLUDEPATH += /usr/include/eigen3/ \

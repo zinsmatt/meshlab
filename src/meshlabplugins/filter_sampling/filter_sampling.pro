@@ -6,3 +6,4 @@ SOURCES       += filter_sampling.cpp
 TARGET        = filter_sampling
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

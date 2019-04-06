@@ -23,3 +23,4 @@ DEFINES += FOR_RELEASE
 #PRE_TARGETDEPS += ./filter_screened_poisson.xml
 macx:QMAKE_POST_LINK = "cp "$$_PRO_FILE_PWD_/$$TARGET".xml ../../distrib/plugins/"$$TARGET".xml"
 
+INCLUDEPATH += /usr/include/eigen3/ \

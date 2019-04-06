@@ -27,3 +27,4 @@ RESOURCES = qualitymapper.qrc
 
 FORMS		  = qualitymapperdialog.ui
 
+INCLUDEPATH += /usr/include/eigen3/ \

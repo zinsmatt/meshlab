@@ -25,3 +25,4 @@ TARGET = filter_mls
 CONFIG       += opengl
 CONFIG       += warn_off
 
+INCLUDEPATH += /usr/include/eigen3/ \

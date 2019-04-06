@@ -5,4 +5,4 @@ SOURCES       += filter_dirt.cpp
 TARGET        = filter_dirt
 TEMPLATE      = lib
 QT           += opengl
-CONFIG       += plugin
+CONFIG       += pluginINCLUDEPATH += /usr/include/eigen3/ \

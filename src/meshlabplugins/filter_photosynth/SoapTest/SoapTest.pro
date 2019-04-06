@@ -20,3 +20,4 @@ SOURCES += main.cpp
 
 HEADERS += \
     handler.h
+INCLUDEPATH += /usr/include/eigen3/ \

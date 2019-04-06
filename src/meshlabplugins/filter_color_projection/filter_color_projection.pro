@@ -10,3 +10,5 @@ HEADERS       =    filter_color_projection.h\
                    rastering.h \
 
 TARGET        =    filter_color_projection
+INCLUDEPATH += /usr/include/eigen3/ \
+INCLUDEPATH += /usr/include/eigen3/ \

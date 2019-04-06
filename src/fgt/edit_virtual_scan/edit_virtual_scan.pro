@@ -20,3 +20,4 @@ SOURCES     +=  edit_virtual_scan_factory.cpp   \
 TARGET      =   edit_virtual_scan
 
 RESOURCES   +=  edit_virtual_scan.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

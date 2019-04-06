@@ -10,3 +10,4 @@ SOURCES   = edit_measure_factory.cpp \
 TARGET    = edit_measure
 
 RESOURCES = edit_measure.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

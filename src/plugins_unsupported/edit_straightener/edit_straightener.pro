@@ -24,3 +24,4 @@ QT += opengl
 FORMS += editstraightener.ui
 
 RESOURCES += editstraightener.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

@@ -9,3 +9,4 @@ TARGET = filter_shape
 TEMPLATE = lib
 QT += opengl
 CONFIG += plugin
+INCLUDEPATH += /usr/include/eigen3/ \

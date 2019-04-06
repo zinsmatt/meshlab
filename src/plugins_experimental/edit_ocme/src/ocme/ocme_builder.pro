@@ -114,3 +114,4 @@ QMAKE_LIBDIR += ../../../../external/kyotocabinet-1.2.34
 
 
  
+INCLUDEPATH += /usr/include/eigen3/ \

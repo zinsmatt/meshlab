@@ -36,3 +36,4 @@ SOURCES       = render_rfx.cpp           \
 FORMS         = rfx_dialog.ui
 RESOURCES 	  = render_rfx.qrc
 TARGET        = render_rfx
+INCLUDEPATH += /usr/include/eigen3/ \

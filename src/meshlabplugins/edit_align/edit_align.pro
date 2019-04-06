@@ -39,3 +39,4 @@ FORMS 	  += alignDialog.ui
 TARGET       = edit_align
 RESOURCES     = edit_align.qrc
 
+INCLUDEPATH += /usr/include/eigen3/ \

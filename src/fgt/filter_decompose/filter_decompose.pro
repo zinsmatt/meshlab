@@ -15,3 +15,4 @@ SOURCES       += \
 TARGET        = filter_decomposer
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

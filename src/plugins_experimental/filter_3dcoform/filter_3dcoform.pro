@@ -18,3 +18,4 @@ TARGET        = filter_3dcoform
 
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

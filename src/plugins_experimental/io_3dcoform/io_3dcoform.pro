@@ -10,4 +10,4 @@ SOURCES       += io_3dcoform.cpp \
 
 TARGET        = io_3dcoform
 
-QT           += xml 
+QT           += xml INCLUDEPATH += /usr/include/eigen3/ \

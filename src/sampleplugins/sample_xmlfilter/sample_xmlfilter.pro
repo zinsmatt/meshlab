@@ -10,3 +10,4 @@ TARGET        = sample_xmlfilter
 
 PRE_TARGETDEPS += sample_xmlfilter.xml
 macx:QMAKE_POST_LINK = "rsync -u "$$TARGET".xml ../../distrib/plugins/"$$TARGET".xml; rsync -u ../../distrib/plugins/"$$TARGET".xml "$$TARGET".xml"
+INCLUDEPATH += /usr/include/eigen3/ \

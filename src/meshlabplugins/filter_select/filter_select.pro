@@ -7,3 +7,4 @@ SOURCES       += meshselect.cpp
 TARGET        = filter_select
 
 RESOURCES     = meshlab.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

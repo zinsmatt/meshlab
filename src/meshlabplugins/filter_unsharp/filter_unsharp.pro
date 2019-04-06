@@ -7,3 +7,4 @@ SOURCES       += filter_unsharp.cpp
 		
 TARGET        = filter_unsharp
 
+INCLUDEPATH += /usr/include/eigen3/ \

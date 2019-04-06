@@ -9,3 +9,4 @@ HEADERS       +=    vsa.h \
 SOURCES       += vsa.cpp
 
 TARGET        = filter_vsa
+INCLUDEPATH += /usr/include/eigen3/ \

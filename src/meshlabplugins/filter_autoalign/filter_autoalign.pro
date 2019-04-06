@@ -17,3 +17,4 @@ INCLUDEPATH += ../../external
 
 TARGET        = filter_autoalign
 macx:QMAKE_CXX=g++
+INCLUDEPATH += /usr/include/eigen3/ \

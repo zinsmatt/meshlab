@@ -31,3 +31,4 @@ SOURCES += 	./lib/openctm.c \
             ./lib/liblzma/LzmaDec.c \
             ./lib/liblzma/LzmaEnc.c \
             ./lib/liblzma/LzmaLib.c
+INCLUDEPATH += /usr/include/eigen3/ \

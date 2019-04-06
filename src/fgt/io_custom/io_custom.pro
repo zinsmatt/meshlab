@@ -4,4 +4,4 @@ HEADERS       += io_custom.h
 SOURCES       += io_custom.cpp 
 TARGET        = io_custom
 TEMPLATE      = lib
-CONFIG       += plugin
+CONFIG       += pluginINCLUDEPATH += /usr/include/eigen3/ \

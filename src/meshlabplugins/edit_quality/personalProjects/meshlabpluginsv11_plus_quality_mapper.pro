@@ -31,3 +31,4 @@ SUBDIRS       = meshfilter \
 		
 		
 		
+INCLUDEPATH += /usr/include/eigen3/ \

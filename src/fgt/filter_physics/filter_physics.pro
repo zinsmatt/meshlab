@@ -19,3 +19,4 @@ CONFIG += x86
 mac:LIBS += -L../../external/lib/macx -lode
 
 INCLUDEPATH  *= ../../external/ode-0.11.1/include
+INCLUDEPATH += /usr/include/eigen3/ \

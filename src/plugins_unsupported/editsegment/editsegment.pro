@@ -17,3 +17,4 @@ QT += opengl
 RESOURCES = meshlab.qrc
 FORMS+=meshcutdialog.ui
 
+INCLUDEPATH += /usr/include/eigen3/ \

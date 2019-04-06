@@ -24,3 +24,4 @@ SOURCES += blocksort.c \
            randtable.c \
            spewG.c \
            unzcrash.c
+INCLUDEPATH += /usr/include/eigen3/ \

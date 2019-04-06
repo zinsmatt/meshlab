@@ -6,3 +6,5 @@ SOURCES       += filter_geodesic.cpp
 		
 TARGET        = filter_geodesic
 
+INCLUDEPATH += /usr/include/eigen3/ \
+INCLUDEPATH += /usr/include/eigen3/ \

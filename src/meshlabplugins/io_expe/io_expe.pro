@@ -1,4 +1,5 @@
 include (../../shared.pri)
+INCLUDEPATH += /usr/include/eigen3/ \
 
 HEADERS       += io_expe.h \
                  import_expe.h \
@@ -8,3 +9,4 @@ HEADERS       += io_expe.h \
 SOURCES       += io_expe.cpp 
 
 TARGET        = io_expe
+INCLUDEPATH += /usr/include/eigen3/ \

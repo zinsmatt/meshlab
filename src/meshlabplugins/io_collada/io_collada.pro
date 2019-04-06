@@ -1,4 +1,5 @@
 include (../../shared.pri)
+INCLUDEPATH += /usr/include/eigen3/ \
 
 HEADERS       += io_collada.h \
 		$$VCGDIR/wrap/io_trimesh/export_dae.h \
@@ -13,3 +14,4 @@ SOURCES       += io_collada.cpp \
 
 TARGET        = io_collada
 
+INCLUDEPATH += /usr/include/eigen3/ \

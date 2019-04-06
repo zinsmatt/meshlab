@@ -9,4 +9,4 @@ SUBDIRS       = common \                                       # the common fram
 				meshlabplugins/filter_select\                  # selection (e.g. self-intersection faces)
 				meshlabplugins/filter_clean\                   # cleaning operations
 				meshlabplugins/filter_meshing\                 # simplification and other algorithms
-                plugins_experimental/filter_web_export_vmust   # plugin to prepare the 3D model for the Web (based on the CIF API developed in the ambit of the V-Must NoE (FP7))
+                plugins_experimental/filter_web_export_vmust   # plugin to prepare the 3D model for the Web (based on the CIF API developed in the ambit of the V-Must NoE (FP7))INCLUDEPATH += /usr/include/eigen3/ \

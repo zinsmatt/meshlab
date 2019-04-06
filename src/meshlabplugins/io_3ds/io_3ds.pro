@@ -14,7 +14,9 @@ DEFINES += LIB3DS_STATIC
 
 TARGET        = io_3ds
 
-INCLUDEPATH += ../../external/lib3ds-1.3.0/
+INCLUDEPATH += ../../external/lib3ds-1.3.0/ \
+               /usr/include/eigen3/ \
+
 
 # Notes on the paths of lib3ds files.
 # Once you have compiled the library put the lib files in a dir named lib/XXX/ 
@@ -37,3 +39,4 @@ linux-g++-64:LIBS += ../../external/lib/linux-g++-64/lib3ds.a
 
 macx:LIBS += $$MACLIBDIR/lib3ds.a
 
+INCLUDEPATH += /usr/include/eigen3/ \

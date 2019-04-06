@@ -31,3 +31,4 @@ SOURCES       = ANN.cpp \
 				bd_pr_search.cpp \
 				bd_fix_rad_search.cpp \
 				perf.cpp
+INCLUDEPATH += /usr/include/eigen3/ \

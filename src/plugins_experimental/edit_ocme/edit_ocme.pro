@@ -96,3 +96,4 @@ SOURCES +=               edit_ocme_factory.cpp \
 LIBS += -lkyotocabinet
 LIBPATH +=  /../../external/kyotocabinet-1.2.34
 
+INCLUDEPATH += /usr/include/eigen3/ \

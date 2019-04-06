@@ -18,3 +18,4 @@ SOURCES += Axb.c \
            misc.c\
  
 
+INCLUDEPATH += /usr/include/eigen3/ \

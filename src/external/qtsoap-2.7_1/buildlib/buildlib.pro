@@ -11,3 +11,4 @@ win32 {
 }
 target.path = $$DESTDIR
 INSTALLS += target
+INCLUDEPATH += /usr/include/eigen3/ \

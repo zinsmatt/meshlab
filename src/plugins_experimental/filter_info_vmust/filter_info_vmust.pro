@@ -5,3 +5,4 @@ SOURCES       += filter_info.cpp
 TARGET         = filter_info_vmust
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

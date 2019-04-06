@@ -7,3 +7,4 @@ TARGET        = render_splatting
 RESOURCES     = ../../../../vcglib/wrap/gl/splatting_apss/splatrenderer.qrc
 
 # CONFIG += debug
+INCLUDEPATH += /usr/include/eigen3/ \

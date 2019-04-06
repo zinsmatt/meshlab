@@ -19,3 +19,4 @@ RESOURCES     = edit_point.qrc
 
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

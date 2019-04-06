@@ -12,3 +12,4 @@ LIBS += pcl_common_debug.lib pcl_io_debug.lib
 
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

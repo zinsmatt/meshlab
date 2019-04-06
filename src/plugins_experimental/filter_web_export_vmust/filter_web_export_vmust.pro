@@ -7,3 +7,4 @@ SOURCES       += filter_web_export.cpp
 TARGET         = filter_web_export
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

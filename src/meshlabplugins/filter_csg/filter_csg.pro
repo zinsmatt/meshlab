@@ -3,6 +3,8 @@ HEADERS += filter_csg.h \
     intercept.h \
     gmpfrac.h
 
+INCLUDEPATH += /usr/include/eigen3/ \
+
 SOURCES += filter_csg.cpp
 TARGET = filter_csg
 
@@ -24,3 +26,4 @@ linux-g++:INCLUDEPATH += ../../external/inc/linux-g++/mpir-2.4.0
 linux-g++:LIBS += ../../external/lib/linux-g++/libmpirxx.a ../../external/lib/linux-g++/libmpir.a
 linux-g++-64:INCLUDEPATH += ../../external/inc/linux-g++/mpir-2.4.0
 linux-g++-64:LIBS += ../../external/lib/linux-g++-64/libmpirxx.a ../../external/lib/linux-g++-64/libmpir.a
+INCLUDEPATH += /usr/include/eigen3/ \

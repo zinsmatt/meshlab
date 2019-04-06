@@ -27,3 +27,4 @@ DEPENDPATH += ./shaders
 
 RESOURCES += \
     filter_sdfgpu.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

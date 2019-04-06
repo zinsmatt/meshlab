@@ -15,3 +15,4 @@ OTHER_FILES += \
 RESOURCES += \
     filter_gears.qrc
 
+INCLUDEPATH += /usr/include/eigen3/ \

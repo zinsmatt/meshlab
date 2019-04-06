@@ -13,3 +13,4 @@ QT            += opengl
 FORMS		  = dialog.ui
 
 # CONFIG += debug
+INCLUDEPATH += /usr/include/eigen3/ \

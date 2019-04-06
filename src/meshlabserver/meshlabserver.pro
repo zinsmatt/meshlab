@@ -1,6 +1,7 @@
 include (../general.pri)
 
-INCLUDEPATH += . .. $$VCGDIR $$GLEWDIR/include
+INCLUDEPATH += . .. $$VCGDIR $$GLEWDIR/include \
+                /usr/include/eigen3/ \
 
 HEADERS        = 
 
@@ -57,3 +58,4 @@ CONFIG += console
 
 # Mac specific Config required to avoid to make application bundles
 CONFIG -= app_bundle
+INCLUDEPATH += /usr/include/eigen3/ \

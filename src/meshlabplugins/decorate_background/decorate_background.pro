@@ -8,3 +8,4 @@ SOURCES      += decorate_background.cpp\
 TARGET        = decorate_background
 
 RESOURCES +=  decorate_background.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

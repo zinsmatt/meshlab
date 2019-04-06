@@ -8,3 +8,4 @@ TARGET        = filter_perceptualmetric
 
 CONFIG       += opengl
 
+INCLUDEPATH += /usr/include/eigen3/ \

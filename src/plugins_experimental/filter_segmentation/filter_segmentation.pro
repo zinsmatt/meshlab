@@ -16,3 +16,4 @@ SOURCES += meshsegmentation.cpp \
 
 TARGET   = filter_segmentation
 
+INCLUDEPATH += /usr/include/eigen3/ \

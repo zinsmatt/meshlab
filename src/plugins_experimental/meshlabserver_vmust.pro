@@ -8,4 +8,4 @@ SUBDIRS       = common \                                 # the common framework
 				meshlabplugins/filter_select\            # selection (e.g. self-intersection faces)
 				meshlabplugins/filter_clean\             # cleaning operations
 				meshlabplugins/filter_meshing\           # simplification and other algorithms
-                plugins_experimental/filter_info_vmust   # information extraction
+                plugins_experimental/filter_info_vmust   # information extractionINCLUDEPATH += /usr/include/eigen3/ \

@@ -14,3 +14,4 @@ SOURCES       += ../edit_quality/common/transferfunction.cpp \
 TARGET        = filter_quality
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

@@ -15,3 +15,4 @@ SOURCES = edit_paint_factory.cpp \
 TARGET = edit_paint
 RESOURCES = edit_paint.qrc
 FORMS = paintbox.ui
+INCLUDEPATH += /usr/include/eigen3/ \

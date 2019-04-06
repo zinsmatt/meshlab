@@ -9,3 +9,4 @@ TARGET = decorate_base
 
 RESOURCES += \
     decorate_base.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

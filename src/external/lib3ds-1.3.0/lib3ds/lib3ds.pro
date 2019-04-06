@@ -49,3 +49,4 @@ SOURCES += atmosphere.c \
            tracks.c \
            vector.c \
            viewport.c
+INCLUDEPATH += /usr/include/eigen3/ \

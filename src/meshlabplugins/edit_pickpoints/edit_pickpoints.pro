@@ -20,3 +20,4 @@ FORMS        += pickpointsDialog.ui
 
 TARGET        = edit_pickpoints
 
+INCLUDEPATH += /usr/include/eigen3/ \

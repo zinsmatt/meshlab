@@ -8,3 +8,4 @@ SOURCES       += filter_waffle.cpp
 TARGET        = filter_waffle
 
 QT           += opengl
+INCLUDEPATH += /usr/include/eigen3/ \

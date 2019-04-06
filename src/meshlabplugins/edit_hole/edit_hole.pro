@@ -18,3 +18,4 @@ RESOURCES     = edit_hole.qrc
 FORMS         = edit_hole.ui
 
 
+INCLUDEPATH += /usr/include/eigen3/ \

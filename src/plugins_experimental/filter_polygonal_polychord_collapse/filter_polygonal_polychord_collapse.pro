@@ -6,3 +6,4 @@ HEADERS       +=  mesh.h \
 SOURCES       +=  polygonalpolychordcollapsefilter.cpp
 		
 TARGET         =  filter_polygonal_polychord_collapse
+INCLUDEPATH += /usr/include/eigen3/ \

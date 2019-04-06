@@ -30,4 +30,4 @@ SOURCES +=	../../external/qhull-2003.1/src/geom.c \
 		../../external/qhull-2003.1/src/stat.c \
 		../../external/qhull-2003.1/src/user.c 
 
-TARGET        = filter_qhull
+TARGET        = filter_qhullINCLUDEPATH += /usr/include/eigen3/ \

@@ -1,4 +1,6 @@
 include (../../shared.pri)
+INCLUDEPATH += /usr/include/eigen3/ \
+
 
 TARGET = filter_ao
 
@@ -7,3 +9,4 @@ SOURCES += ./filter_ao.cpp
 
 RESOURCES += \
     filter_ao.qrc
+INCLUDEPATH += /usr/include/eigen3/ \

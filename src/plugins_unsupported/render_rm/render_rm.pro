@@ -22,3 +22,4 @@ SOURCES  = rmmeshrender.cpp \
 FORMS    = rmShadowDialog.ui
 
 TARGET   = render_rm
+INCLUDEPATH += /usr/include/eigen3/ \

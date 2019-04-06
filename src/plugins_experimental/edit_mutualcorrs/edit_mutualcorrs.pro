@@ -34,3 +34,4 @@ linux-g++-32:LIBS += -L../../external/lib/linux-g++-32 -llevmar
 linux-g++-64:LIBS += -L../../external/lib/linux-g++-64 -llevmar
 macx:LIBS            += $$MACLIBDIR/liblevmar.a
 
+INCLUDEPATH += /usr/include/eigen3/ \

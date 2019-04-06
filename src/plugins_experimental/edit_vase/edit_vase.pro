@@ -47,3 +47,4 @@ TARGET = edit_vase
 QT += opengl
 RESOURCES = meshlab.qrc
 FORMS = vasewidget.ui
+INCLUDEPATH += /usr/include/eigen3/ \

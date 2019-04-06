@@ -27,3 +27,4 @@ SOURCES = filter_feature_alignment.cpp \
 		
 		TARGET = filter_feature_alignment
 CONFIG += opengl
+INCLUDEPATH += /usr/include/eigen3/ \

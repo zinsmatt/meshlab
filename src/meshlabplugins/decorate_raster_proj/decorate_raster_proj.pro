@@ -9,3 +9,4 @@ SOURCES += decorate_raster_proj.cpp \
            $$VCGDIR/wrap/gui/trackmode.cpp \
 
 TARGET = decorate_raster_proj
+INCLUDEPATH += /usr/include/eigen3/ \

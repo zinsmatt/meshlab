@@ -12,3 +12,4 @@ SOURCES += filter_sdf.cpp
 # SOURCES += filter_sdf+.cpp
 
 TARGET = filter_sdf
+INCLUDEPATH += /usr/include/eigen3/ \

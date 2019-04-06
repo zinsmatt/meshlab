@@ -11,3 +11,4 @@ SOURCES       += meshfilter.cpp \
 
 TARGET        = filter_meshing
 
+INCLUDEPATH += /usr/include/eigen3/ \

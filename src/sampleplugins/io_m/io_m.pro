@@ -4,3 +4,4 @@ HEADERS += io_m.h \
 SOURCES += io_m.cpp
 
 TARGET = io_m
+INCLUDEPATH += /usr/include/eigen3/ \

@@ -20,3 +20,4 @@ SOURCES       += filter_mutualglobal.cpp \
 		
 TARGET        = filter_mutualglobal
 
+INCLUDEPATH += /usr/include/eigen3/ \

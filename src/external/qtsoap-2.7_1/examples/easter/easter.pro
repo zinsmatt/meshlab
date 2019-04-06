@@ -7,3 +7,4 @@ include(../../src/qtsoap.pri)
 # Input
 HEADERS += easter.h
 SOURCES += main.cpp easter.cpp
+INCLUDEPATH += /usr/include/eigen3/ \

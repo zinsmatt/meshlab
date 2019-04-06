@@ -124,3 +124,4 @@ win32-msvc2015:DESTDIR       = ../lib/win32-msvc2015
 linux-g++-32:DESTDIR = ../lib/linux-g++-32
 linux-g++-64:DESTDIR = ../lib/linux-g++-64
 linux-g++:DESTDIR = ../lib/linux-g++
+INCLUDEPATH += /usr/include/eigen3/ \

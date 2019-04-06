@@ -16,3 +16,4 @@ TARGET        = editslice
 
 RESOURCES     = meshlab.qrc
 FORMS         = slicedialog.ui svgpro.ui
+INCLUDEPATH += /usr/include/eigen3/ \

@@ -1,4 +1,5 @@
 include (../../shared.pri)
+INCLUDEPATH += /usr/include/eigen3/ \
 
 HEADERS       += baseio.h \
 		$$VCGDIR/wrap/io_trimesh/import_obj.h \
@@ -16,3 +17,4 @@ SOURCES       += baseio.cpp \
 
 
 TARGET        = io_base
+INCLUDEPATH += /usr/include/eigen3/ \

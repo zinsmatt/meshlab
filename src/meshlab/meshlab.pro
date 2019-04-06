@@ -6,6 +6,7 @@ EXIF_DIR = ../external/jhead-2.95
 DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x000000
 
 INCLUDEPATH *= . \
+    /usr/include/eigen3/ \
 	.. \
 	../.. \
     $$VCGDIR \
@@ -164,3 +165,4 @@ linux-g++-64:QMAKE_RPATHDIR += ../distrib
 # The following define is needed in gcc to remove the asserts
 win32-g++:DEFINES += NDEBUG
 CONFIG(debug, debug|release):win32-g++:release:DEFINES -= NDEBUG
+INCLUDEPATH += /usr/include/eigen3/ \

@@ -36,3 +36,4 @@ CONFIG += STL
 RESOURCES = editrgbtri.qrc
 FORMS += widgetRgbT.ui subDialog.ui
 
+INCLUDEPATH += /usr/include/eigen3/ \
