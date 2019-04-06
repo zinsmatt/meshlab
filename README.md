@@ -1,3 +1,33 @@
+# Custom version of meshlab
+
+- Checkout the branch Custom_good_version of this repo
+- Checkout the branch Custom_good_version of the [VCGLib fork](https://github.com/zinsmatt/vcglib)
+
+The two folders must be at the same level. For example:
+
+			--> Meshlab/meshlab
+			--> Meshlab/vcglib
+
+
+- Install Qt 5.9
+- Install Eigen 3
+
+- Compile `meshlab/src/external/external.pro`:
+
+			cd meshlab/src/external
+			~/Qt/5.9/gcc_64/bin/qmake external.pro
+			make
+
+- Compile  `meshlab/src/meshlab_full.pro`:
+
+			cd meshlab/src
+			~/Qt/5.9/gcc_64/bin/qmake meshlab_full.pro
+			make
+
+
+- The executable is in `meshlab/src/distrib/`
+
+
 # ![MeshLab Logo](src/meshlab/images/eye64.png) MeshLab
 This is the official repository for the sources and the binaries of MeshLab. 
 
