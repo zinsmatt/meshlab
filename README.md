@@ -21,11 +21,18 @@ The two folders must be at the same level. For example:
 - Compile  `meshlab/src/meshlab_full.pro`:
 
 			cd meshlab/src
-			~/Qt/5.9/gcc_64/bin/qmake meshlab_full.pro
+			~/Qt/5.9/gcc_64/bin/qmake -recursive meshlab_full.pro
 			make
 
 
 - The executable is in `meshlab/src/distrib/`
+
+- Add symlink to `/usr/bin`:
+
+			ln -s /home/matt/lib/Meshlab/meshlab/src/distrib/meshlab /usr/bin/meshlab
+
+
+- Copy `meshlab/src/distrib/Meshlab.desktop` to `/usr/share/applications/`
 
 
 # ![MeshLab Logo](src/meshlab/images/eye64.png) MeshLab
