@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=MeshLab
+Comment=Processor and editor of large 3D triangular meshes
+Exec=meshlab
+Terminal=false
+Categories=Graphics;
+Icon=~/lib/Meshlab/meshlab/src/distrib/meshlab.png
