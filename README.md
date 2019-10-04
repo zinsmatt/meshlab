@@ -9,7 +9,7 @@ The two folders must be at the same level. For example:
 			--> Meshlab/vcglib
 
 
-- Install Qt 5.9
+- Install Qt 5.9 (**WARNING** you need to install the deprecated script module of Qt 5.9)
 - Install Eigen 3
 
 - Compile `meshlab/src/external/external.pro`:
